@@ -1,0 +1,6 @@
+1) git pull
+2) commit locally with GUI
+3) git push origin master (with the remotes defined)
+4) allow through browser (ubuntu will do this for you)
+5) copy the token and paste in terminal on Visual Studio
+- patalayus
