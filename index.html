@@ -155,7 +155,8 @@
 <form action="https://postmail.invotes.com/send"
     method="post" id="email_form">
 
-    <input type="text" name="subject" placeholder="Subject" />
+	<input type="text" name="subject" placeholder="Subject" />
+	<p> </p>
     <textarea name="text" placeholder="Message"></textarea>
     <input type="hidden" name="access_token" value="l6p8ihv4a9l78e08cu7beocr" />
       <!-- return urls can be fully qualified -OR-
@@ -164,7 +165,7 @@
     <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
     <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
    
-
+<p> </p>
     <!-- set the reply-to address -->
     <input type="text" name="reply_to"
                 placeholder="techin8080@gmail.com" /> 
@@ -178,10 +179,10 @@
          for an sms gateway -->
     <!-- <input type="hidden"
                 name="sms_format" value="true" /> -->
-   
+   <p> </p>
     <input id="submit_form" type="submit" value="Send" />
     <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
-    <p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>
+    <!--<p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>-->
 </form>
      
 <!-- optional, prevents the submit button from being pressed more than once -->
